@@ -1,6 +1,6 @@
 # Warning
 
-This is a point in time sample and won't be actively maintained, it serves as an example only. 
+This is a point in time sample and won't be actively maintained, it serves as an example only. Be warned this uses a `privileged` so the normal security warnings apply. 
 
 # What does it do?
 
