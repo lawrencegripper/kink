@@ -14,7 +14,7 @@ terminal: build
 	docker run -it --privileged --entrypoint /bin/bash ${DOCKER_USER}/${IMAGE_NAME}:latest
 
 clear:
-	kubectl delete pod kind-pod
+	kubectl delete pod kind-pod || true
 
 deploy: push clear
 	kubectl apply -f ./pod.yaml
